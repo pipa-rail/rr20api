@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'source_provider_controller/index'
+  get 'user/index'
 
-  get 'source_provider_controller/show'
+  get 'user/show'
 
+  resources :tests
+  resources :source_provider
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

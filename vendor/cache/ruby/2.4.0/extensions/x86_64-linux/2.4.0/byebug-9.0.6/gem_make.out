@@ -1,0 +1,19 @@
+current directory: /mnt/c/Users/Piotr_Kaminski/RubymineProjects/rr20api/vendor/cache/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+/usr/local/rvm/rubies/ruby-2.4.1/bin/ruby -r ./siteconf20170727-1757-1ixml89.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/Users/Piotr_Kaminski/RubymineProjects/rr20api/vendor/cache/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /mnt/c/Users/Piotr_Kaminski/RubymineProjects/rr20api/vendor/cache/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /mnt/c/Users/Piotr_Kaminski/RubymineProjects/rr20api/vendor/cache/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20170727-1757-1g94p5z/byebug

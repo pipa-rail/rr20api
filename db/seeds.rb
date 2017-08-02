@@ -5,4 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-user1 = User.create(first_name: '',last_name: '', email: "test#{Random.rand(1000)}@example.com", password: 'password')
+
+s1 = SourceProvider.create(name: 'Bart', url: 'abart.example.com', address: 'somestreet 2156', active: false)
